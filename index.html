@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Massa</title>
 </head>
 
@@ -23,21 +28,66 @@
     </header>
 
     <main>
-        <section class="intro">
-            <h1>
-                Ajudamos <strong>programadores</strong> a conseguirem seus <strong>primeiros empregos</strong>
-            </h1>
+        <section class="intro gray">
+            <div class="container">
+                <h1>
+                    Ajudamos <strong>programadores</strong> a conseguirem seus <strong>primeiros empregos</strong>
+                </h1>
 
-            <p>Mais de 100 mil desenvolvedores já conseguiram o seu primeiro emprego usando nossa plataforma</p>
-            
-            <a href="#">Sou programador</a>
-            <a href="#">Somos empresa contratando</a>
+                <p>Mais de 100 mil desenvolvedores já conseguiram o seu primeiro emprego usando nossa plataforma</p>
+
+                <div class="cta">
+                    <a class="button primary" href="#">Sou programador</a>
+                    <a class="button secondary" href="#">Somos empresa contratando</a>
+                </div>
+            </div>
         </section>
 
-        <section class="languages"></section>
-        
-        <section class="team"></section>
+        <section class="languages">
+            <div class="container">
+                <h1 class="title">Linguagens</h1>
+
+                <div class="cards">
+                    <div class="card red">Ruby</div>
+                    <div class="card blue">Javascript</div>
+                    <div class="card purple">Elixir</div>
+                    <div class="card yellow">Python</div>
+                    <div class="card green">Go</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team gray">
+            <div class="container">
+                
+                <h1 class="title">Nosso time</h1>
+
+                <div class="members">
+                    <div class="member"><img src="./images/team/walter.jpg"></div>
+                    <div class="member"><img src="./images/team/jesse.jpg"></div>
+                    <div class="member"><img src="./images/team/skyler.jpg"></div>
+                    <div class="member"><img src="./images/team/hank.jpg"></div>
+                    <div class="member"><img src="./images/team/gus.jpg"></div>
+                    <div class="member"><img src="./images/team/mike.jpg"></div>
+                    <div class="member"><img src="./images/team/saul.jpg"></div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Politica de Privacidade</a></li>
+                <li><a href="#">Carreira</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+
+            <p class="copyright">@ Massa. Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 
 </html>
