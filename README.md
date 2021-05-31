@@ -4,6 +4,6 @@
 
 #### O projeto é desenvolvido em HTML e CSS
 
-#### Para executar o projeto basta abri o arquivo *index.html* no navegador
+#### Para executar o projeto basta abrir o arquivo *index.html* no navegador
 
 ##### É uma página única, sem navegação, apenas frontend
